@@ -29,7 +29,7 @@ fun OnboardingScreen(navController: NavController) {
         )
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text("Jetpack Compose", style = MaterialTheme.typography.titleLarge)
-            Text("Jetpack Compose is a modern UI toolkit...", textAlign = TextAlign.Center)
+            Text("Jetpack Compose is a modern UI toolkit for building native Android applications using a declarative programming approach.", textAlign = TextAlign.Center)
         }
         Button(
             onClick = { navController.navigate("components") },
